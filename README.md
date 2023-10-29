@@ -9,6 +9,10 @@ The NUDT-SIRST dataset (https://github.com/YeRen123455/Infrared-Small-Target-Det
 
 The IRSTD-1k dataset (https://github.com/RuiZhang97/ISNet/tree/master)
 
+The MDvsFA dataset (https://github.com/wanghuanphd/MDvsFA_cGAN)
+
+The bounding box annotation version of the current infrared small target public dataset: download from https://pan.baidu.com/s/1kDQIg45_9wel6GVDBTkbdg with code ts1u.
+
 ## Requirements
   pip install -r requirements.txt
  
