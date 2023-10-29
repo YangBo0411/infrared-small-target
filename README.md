@@ -542,7 +542,7 @@ The bounding box annotation version of the current infrared small target public 
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">[weight](URL "https://github.com/yang19950411/infrared-small-target/blob/main/runs/train/IRSTD.pt")<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">[Alt](URL "https://github.com/yang19950411/infrared-small-target/blob/main/runs/train/IRSTD.pt")<o:p></o:p></span></b></p>
   </td>
   <td width="158" colspan="3" valign="top" style="width:118.35pt;border-top:none;
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
