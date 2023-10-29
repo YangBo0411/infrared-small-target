@@ -24,6 +24,8 @@ The bounding box annotation version of the current infrared small target public 
   
   mim install "mmcv>=2.0.0"
 
+  [MDvsFA] (https://github.com/wanghuanphd/MDvsFA_cGAN)
+
 ## Results 
 ### Quantitative Results
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
