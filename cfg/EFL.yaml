@@ -136,5 +136,5 @@ head:
    [88, 1, RepConv, [256, 3, 1]],
    [101, 1, RepConv, [256, 3, 1]],
 
-   [[102,103,104], 1, IDetect, [nc, anchors]],   # Detect(P3, P4, P5)
+   [[102,103,104], 1, DyDetect, [nc, anchors]],   # Detect(P3, P4, P5)
   ]

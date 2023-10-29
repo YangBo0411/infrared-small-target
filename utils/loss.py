@@ -118,35 +118,15 @@ class SigmoidBin(nn.Module):
         return loss, out_result
 
 
-class FocalLoss(nn.Module):
+class AdaptiveThresholdFocalLoss(nn.Module):
     # Wraps focal loss around existing loss_fcn(), i.e. criteria = FocalLoss(nn.BCEWithLogitsLoss(), gamma=1.5)
     def __init__(self, loss_fcn, gamma=1.5, alpha=0.25):
-        super(FocalLoss, self).__init__()
+        super(AdaptiveThresholdFocalLoss, self).__init__()
         self.loss_fcn = loss_fcn  # must be nn.BCEWithLogitsLoss()
         self.gamma = gamma
         self.alpha = alpha
         self.reduction = loss_fcn.reduction
         self.loss_fcn.reduction = 'none'  # required to apply FL to each element
-
-    # def forward(self, pred, true):
-    #     loss = self.loss_fcn(pred, true)
-    #     # p_t = torch.exp(-loss)
-    #     # loss *= self.alpha * (1.000001 - p_t) ** self.gamma  # non-zero power for gradient stability
-    #
-    #     # TF implementation https://github.com/tensorflow/addons/blob/v0.7.1/tensorflow_addons/losses/focal_loss.py
-    #     pred_prob = torch.sigmoid(pred)  # prob from logits
-    #     p_t = true * pred_prob + (1 - true) * (1 - pred_prob)
-    #     alpha_factor = true * self.alpha + (1 - true) * (1 - self.alpha)
-    #     modulating_factor = (1.0 - p_t) ** self.gamma
-    #     loss *= alpha_factor * modulating_factor
-    #
-    #     if self.reduction == 'mean':
-    #         return loss.mean()
-    #     elif self.reduction == 'sum':
-    #         return loss.sum()
-    #     else:  # 'none'
-    #         return loss
-
     def forward(self, pred, true):
         loss = self.loss_fcn(pred, true)
         pred_prob = torch.sigmoid(pred)
@@ -494,7 +474,7 @@ class ComputeLoss:
         # Focal loss
         g = h['fl_gamma']  # focal loss gamma
         if g > 0:
-            BCEcls, BCEobj = FocalLoss(BCEcls, g), FocalLoss(BCEobj, g)
+            BCEcls, BCEobj = AdaptiveThresholdFocalLoss(BCEcls, g), AdaptiveThresholdFocalLoss(BCEobj, g)
 
         det = model.module.model[-1] if is_parallel(model) else model.model[-1]  # Detect() module
         self.balance = {3: [4.0, 1.0, 0.4]}.get(det.nl, [4.0, 1.0, 0.25, 0.06, .02])  # P3-P7
@@ -530,7 +510,7 @@ class ComputeLoss:
                 # # Objectness
                 # tobj[b, a, gj, gi] = (1.0 - self.gr) + self.gr * iou.detach().clamp(0).type(tobj.dtype)  # iou ratio
 
-                # ---------------nwd小目标损失函数
+
                 iou = bbox_iou(pbox.T, tbox[i], x1y1x2y2=False, CIoU=True)  # iou(prediction, target)
                 nwd = wasserstein_loss(pbox, tbox[i])
                 iou_ratio = 0
@@ -639,7 +619,7 @@ class ComputeLossOTA:
         # Focal loss
         g = h['fl_gamma']  # focal loss gamma
         if g > 0:
-            BCEcls, BCEobj = FocalLoss(BCEcls, g), FocalLoss(BCEobj, g)
+            BCEcls, BCEobj = AdaptiveThresholdFocalLoss(BCEcls, g), AdaptiveThresholdFocalLoss(BCEobj, g)
 
         det = model.module.model[-1] if is_parallel(model) else model.model[-1]  # Detect() module
         self.balance = {3: [4.0, 1.0, 0.4]}.get(det.nl, [4.0, 1.0, 0.25, 0.06, .02])  # P3-P7

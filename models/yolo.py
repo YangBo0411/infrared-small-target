@@ -95,7 +95,7 @@ class Detect(nn.Module):
         return (box, score)
 
 
-class IDetect(nn.Module):
+class DyDetect(nn.Module):
     stride = None  # strides computed during build
     export = False  # onnx export
     end2end = False
@@ -103,7 +103,7 @@ class IDetect(nn.Module):
     concat = False
 
     def __init__(self, nc=80, anchors=(), ch=()):  # detection layer
-        super(IDetect, self).__init__()
+        super(DyDetect, self).__init__()
         self.nc = nc  # number of classes
         self.no = nc + 5  # number of outputs per anchor
         self.nl = len(anchors)  # number of detection layers
@@ -546,7 +546,7 @@ class Model(nn.Module):
             self.stride = m.stride
             self._initialize_biases()  # only run once
             # print('Strides: %s' % m.stride.tolist())
-        if isinstance(m, IDetect):
+        if isinstance(m, DyDetect):
             s = 256  # 2x min stride
             m.stride = torch.tensor([s / x.shape[-2] for x in self.forward(torch.zeros(1, ch, s, s))])  # forward
             check_anchor_order(m)
@@ -794,7 +794,7 @@ def parse_model(d, ch):  # model_dict, input_channels(3)
             c2 = ch[f[0]]
         elif m is Foldcut:
             c2 = ch[f] // 2
-        elif m in [Detect, IDetect, IAuxDetect, IBin, IKeypoint]:
+        elif m in [Detect, DyDetect, IAuxDetect, IBin, IKeypoint]:
             args.append([ch[x] for x in f])
             if isinstance(args[1], int):  # number of anchors
                 args[1] = [list(range(args[1] * 2))] * len(f)
@@ -804,9 +804,9 @@ def parse_model(d, ch):  # model_dict, input_channels(3)
             c2 = ch[f] * args[0] ** 2
         elif m is Expand:
             c2 = ch[f] // args[0] ** 2
-        elif m is EVCBlock:
-            c2 = ch[f]
-            args = [c2, c2]
+        # elif m is EVCBlock:
+        #     c2 = ch[f]
+        #     args = [c2, c2]
         elif m is ContextAggregation:
             c2 = ch[f]
             args = [c2]
