@@ -11,10 +11,6 @@ The IRSTD-1k dataset (https://github.com/RuiZhang97/ISNet/tree/master)
 
 The MDvsFA dataset (https://github.com/wanghuanphd/MDvsFA_cGAN)
 
-[MDvsFA](https://github.com/wanghuanphd/MDvsFA_cGAN)
-
-[IRSTD-1k](https://github.com/RuiZhang97/ISNet/tree/master)
-
 The IRST640 dataset (https://github.com/jzchenriver/IRST640)
 
 The bounding box annotation version of the current infrared small target public dataset: download from  BaiduYun Drive [https://pan.baidu.com/s/1kDQIg45_9wel6GVDBTkbdg](https://pan.baidu.com/s/1Gv1gMCdajtR8pR76Y4iQhg) with code IRST.
@@ -546,7 +542,10 @@ The bounding box annotation version of the current infrared small target public 
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">Weight<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">
+  [weight](https://github.com/yang19950411/infrared-small-target/raw/main/runs/train/IRSTD.pt)
+    []
+    Weight<o:p></o:p></span></b></p>
   </td>
   <td width="158" colspan="3" valign="top" style="width:118.35pt;border-top:none;
   border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
