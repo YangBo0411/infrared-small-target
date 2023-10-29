@@ -24,3 +24,6 @@ The IRSTD-1k dataset (https://github.com/RuiZhang97/ISNet/tree/master)
 
 ### Visual Results
 ![image](https://github.com/yang19950411/infrared-small-target/blob/main/Visual%20Results.png)
+
+## Citation
+
