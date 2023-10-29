@@ -562,7 +562,10 @@ The bounding box annotation version of the current infrared small target public 
   </td>
  </tr>
 </tbody></table>
+
+[weight](https://github.com/yang19950411/infrared-small-target/raw/main/runs/train/IRSTD.pt)
 ### Visual Results
+
 ![image](https://github.com/yang19950411/infrared-small-target/blob/main/Visual%20Results.png)
 
 ## Citation
