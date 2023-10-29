@@ -13,6 +13,7 @@ The MDvsFA dataset (https://github.com/wanghuanphd/MDvsFA_cGAN)
 
 [MDvsFA](https://github.com/wanghuanphd/MDvsFA_cGAN)
 
+[IRSTD-1k](https://github.com/RuiZhang97/ISNet/tree/master)
 
 The IRST640 dataset (https://github.com/jzchenriver/IRST640)
 
