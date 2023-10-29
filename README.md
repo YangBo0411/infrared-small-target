@@ -37,7 +37,6 @@ The bounding box annotation version of the current infrared small target public 
 |     DNANet     |     0.847    |     0.836    |     0.841    |     0.914    |     0.889    |     0.901    |     0.768    |     0.721    |     0.744    |
 |     ours       |     0.907    |     0.867    |     0.887    |     0.965    |     0.924    |     0.944    |     0.882    |     0.807    |     0.842    |
 |                |              |              |              |              |              |              |              |              |              |
-![image](https://github.com/yang19950411/infrared-small-target/blob/main/Quantitative%20Results.png)
 
 ### Visual Results
 ![image](https://github.com/yang19950411/infrared-small-target/blob/main/Visual%20Results.png)
