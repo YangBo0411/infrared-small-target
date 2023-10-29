@@ -26,7 +26,7 @@ The bounding box annotation version of the current infrared small target public 
 
 ## Results 
 ### Quantitative Results
-|                |              |              |              |              |              |              |              |              |              |
+|         Method       |           NUAA-SIRST             |              |              |              |              |              |              |
 |----------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
 |                |              |              |              |              |              |              |              |              |              |
 |     MDvsFA     |     0.845    |     0.507    |     0.597    |     0.608    |     0.192    |     0.262    |     0.55     |     0.483    |     0.475    |
