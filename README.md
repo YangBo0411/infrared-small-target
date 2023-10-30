@@ -3,15 +3,15 @@
 
 Tested on Windows 10 , with Python 3.7, PyTorch 1.13, NVIDIA 3080.
 
-The NUAA-SIRST dataset (https://github.com/YimianDai/sirst)
+The [NUAA-SIRST dataset](https://github.com/YimianDai/sirst)
 
-The NUDT-SIRST dataset (https://github.com/YeRen123455/Infrared-Small-Target-Detection)
+The [NUDT-SIRST dataset](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
 
-The IRSTD-1k dataset (https://github.com/RuiZhang97/ISNet/tree/master)
+The [IRSTD-1k dataset](https://github.com/RuiZhang97/ISNet/tree/master)
 
-The MDvsFA dataset (https://github.com/wanghuanphd/MDvsFA_cGAN)
+The [MDvsFA dataset](https://github.com/wanghuanphd/MDvsFA_cGAN)
 
-The IRST640 dataset (https://github.com/jzchenriver/IRST640)
+The [IRST640 dataset](https://github.com/jzchenriver/IRST640)
 
 The bounding box annotation version of the current infrared small target public dataset: download from [BaiduYun Drive](https://pan.baidu.com/s/1Gv1gMCdajtR8pR76Y4iQhg) with code IRST.
 
