@@ -36,7 +36,7 @@ The bounding box annotation version of the current infrared small target public 
 |     ACLNet     |     0.848         |     0.78     |     0.813    |     0.868         |     0.772    |     0.817    |     0.843       |     0.656    |     0.738    |
 |     DNANet     |     0.847         |     0.836    |     0.841    |     0.914         |     0.889    |     0.901    |     0.768       |     0.721    |     0.744    |
 |     ours       |     0.907         |     0.867    |     0.887    |     0.965         |     0.924    |     0.944    |     0.882       |     0.807    |     0.842    |
-| Download       |                   |              |              |                   |              |              |                 |              |              |
+| Download       |            [weight](https://github.com/yang19950411/infrared-small-target/raw/main/runs/train/IRSTD.pt)       |              |              |                   |              |              |                 |              |              |
 
 ### Visual Results
 
