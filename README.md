@@ -526,7 +526,7 @@ The bounding box annotation version of the current infrared small target public 
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
   <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.807<o:p></o:p></span></b></p>
   </td>
-  <td width="52" valign="top" style="width:38.7pt;border-top:none;border-left:none;
+  <td width="52" valign="top" style="width:39.45pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
