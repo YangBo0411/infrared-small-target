@@ -1,4 +1,4 @@
-# EFLNet: Enhancing Feature Learning for Infrared Small Target Detection
+# EFLNet: Enhancing Feature Learning Networks for Infrared Small Target Detection
 ## Prerequisite
 
 Tested on Windows 10 , with Python 3.7, PyTorch 1.13, NVIDIA 3080.
