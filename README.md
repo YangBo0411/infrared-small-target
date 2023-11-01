@@ -3,6 +3,8 @@
 
 Tested on Windows 10 , with Python 3.7, PyTorch 1.13, NVIDIA 3080.
 
+The infrared small target public dataset:
+
 The [NUAA-SIRST dataset](https://github.com/YimianDai/sirst)
 
 The [NUDT-SIRST dataset](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
