@@ -19,6 +19,7 @@ The bounding box annotation version of the current infrared small target public 
 
 ## Usage
 __Train__:
+
 Click on train.py and run it. 
 
 ## Requirements
