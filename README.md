@@ -18,8 +18,7 @@ The [IRST640 dataset](https://github.com/jzchenriver/IRST640)
 The bounding box annotation version of the current infrared small target public dataset: download from [BaiduYun Drive](https://pan.baidu.com/s/1Gv1gMCdajtR8pR76Y4iQhg) with code IRST or [Google Drive](https://drive.google.com/file/d/1goc6D3647xrcDChOvaCycG2op4nfMZpp/view?usp=sharing).
 
 ## Usage
-### Train
-
+__Train__:
 Click on train.py and run it. 
 
 ## Requirements
