@@ -489,55 +489,55 @@ Click on train.py and run it.
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="left" style="text-align:left"><b><span lang="EN-US">0.907<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="left" style="text-align:left"><b><span lang="EN-US">0.886<o:p></o:p></span></b></p>
   </td>
   <td width="50" valign="top" style="width:37.2pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.867<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.893<o:p></o:p></span></b></p>
   </td>
   <td width="55" valign="top" style="width:41.6pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.887<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.889<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.965<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.963<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.924<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.931<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.944<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.947<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.882<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.870<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.807<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.817<o:p></o:p></span></b></p>
   </td>
   <td width="52" valign="top" style="width:39.45pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.842<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.843<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:9;mso-yfti-lastrow:yes">
