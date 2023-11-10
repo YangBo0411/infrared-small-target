@@ -289,8 +289,8 @@ def test(data,
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='test.py')
-    parser.add_argument('--weights', nargs='+', type=str, default='runs/train/nwd12 ATFL1.5 dyhead3  NUAA/weights/best.pt', help='model.pt path(s)')
-    parser.add_argument('--data', type=str, default='data/NUAA-sirst.yaml', help='*.data path')
+    parser.add_argument('--weights', nargs='+', type=str, default='runs/train/NUDT.pt', help='model.pt path(s)')
+    parser.add_argument('--data', type=str, default='data/NUDT-SIRST.yaml', help='*.data path')
     parser.add_argument('--batch-size', type=int, default=32, help='size of each image batch')
     parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.001, help='object confidence threshold')
@@ -305,7 +305,7 @@ if __name__ == '__main__':
     parser.add_argument('--save-conf', action='store_true', help='save confidences in --save-txt labels')
     parser.add_argument('--save-json', action='store_true', help='save a cocoapi-compatible JSON results file')
     parser.add_argument('--project', default='runs/test', help='save to project/name')
-    parser.add_argument('--name', default='1', help='save to project/name')
+    parser.add_argument('--name', default='NUDT', help='save to project/name')
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
     parser.add_argument('--no-trace', action='store_true', help='don`t trace model')
     parser.add_argument('--v5-metric', action='store_true', help='assume maximum recall as 1.0 in AP calculation')
