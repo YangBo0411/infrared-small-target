@@ -23,6 +23,7 @@ __Train__:
 Click on train.py and run it. 
 
 __test__:
+
 python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --iou 0.5 --device 0 --weights NUAA.pt --name NUAA
 
 ## Requirements
