@@ -493,19 +493,19 @@ python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --i
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="left" style="text-align:left"><b><span lang="EN-US">0.886<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="left" style="text-align:left"><b><span lang="EN-US">0.882<o:p></o:p></span></b></p>
   </td>
   <td width="50" valign="top" style="width:37.2pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.893<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.858<o:p></o:p></span></b></p>
   </td>
   <td width="55" valign="top" style="width:41.6pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.889<o:p></o:p></span></b></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span lang="EN-US">0.870<o:p></o:p></span></b></p>
   </td>
   <td width="53" valign="top" style="width:39.45pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
