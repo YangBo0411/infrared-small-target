@@ -577,8 +577,12 @@ python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --i
 
 ## Citation
 @article{yang2023eflnet,
+
   title={EFLNet: Enhancing Feature Learning for Infrared Small Target Detection},
+  
   author={Yang, Bo and Zhang, Xinyu and Zhu, Jiahao and Zhang, Jian and Tian, Dongjian and Luo, Jun and Zhou, Mingliang and Pi, Yangjun},
+  
   journal={arXiv preprint arXiv:2307.14723},
+  
   year={2023}
 }
