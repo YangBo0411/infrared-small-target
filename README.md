@@ -576,13 +576,19 @@ python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --i
 ![image](https://github.com/yang19950411/infrared-small-target/blob/main/Visual%20Results.png)
 
 ## Citation
-@article{yang2023eflnet,
+@article{yang2024eflnet,
 
-  title={EFLNet: Enhancing Feature Learning for Infrared Small Target Detection},
+  title={EFLNet: Enhancing Feature Learning Network for Infrared Small Target Detection},
   
-  author={Yang, Bo and Zhang, Xinyu and Zhu, Jiahao and Zhang, Jian and Tian, Dongjian and Luo, Jun and Zhou, Mingliang and Pi, Yangjun},
+  author={Yang, Bo and Zhang, Xinyu and Zhang, Jian and Luo, Jun and Zhou, Mingliang and Pi, Yangjun},
   
-  journal={arXiv preprint arXiv:2307.14723},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
   
-  year={2023}
+  volume={62},
+  
+  pages={1--11},
+  
+  year={2024},
+  
+  publisher={IEEE}
 }
