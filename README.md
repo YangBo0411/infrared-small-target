@@ -20,12 +20,17 @@ The bounding box annotation version of the current infrared small target public 
 ## Usage
 __Train__:
 
-Click on train.py and run it. 
+Download the dataset and put it in the data file
+
+python train.py --workers 0 --device 0 --batch-size 8 --data data/NUAA-sirst.yaml --img 640 640 --cfg cfg/EFL.yaml --weights '' --name NUAA --hyp data/hyp.scratch.p5.yaml
+
 
 __test__:
 
 python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --iou 0.5 --device 0 --weights NUAA.pt --name NUAA
 
+
+python detect.py --weights runs/train/NUAA.pt --conf 0.5 --img-size 640 --source data/NUAA-sirst/images/test
 ## Requirements
   pip install -r requirements.txt
  
