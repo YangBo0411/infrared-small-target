@@ -17,8 +17,17 @@ The [IRST640 dataset](https://github.com/jzchenriver/IRST640)
 
 The bounding box annotation version of the current infrared small target public dataset: download from [BaiduYun Drive](https://pan.baidu.com/s/1Gv1gMCdajtR8pR76Y4iQhg) with code IRST or [Google Drive](https://drive.google.com/file/d/1goc6D3647xrcDChOvaCycG2op4nfMZpp/view?usp=sharing).
 
+## Requirements
+  pip install -r requirements.txt
+ 
+  pip install -U openmim
+  
+  mim install mmengine
+  
+  mim install "mmcv>=2.0.0"
+
 ## Usage
-__Train__:
+__train__:
 
 Download the dataset and put it in the data file
 
@@ -32,14 +41,7 @@ python test.py --data data/NUAA-sirst.yaml --img 640 --batch 32 --conf 0.001 --i
 __inference__:
 
 python detect.py --weights runs/train/NUAA.pt --conf 0.5 --img-size 640 --source data/NUAA-sirst/images/test
-## Requirements
-  pip install -r requirements.txt
- 
-  pip install -U openmim
-  
-  mim install mmengine
-  
-  mim install "mmcv>=2.0.0"
+
 
 ## Results 
 ### Quantitative Results
